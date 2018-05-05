@@ -1,0 +1,24 @@
+{
+   "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "psr/log": "1.0.1",
+        "symfony/polyfill-mbstring": "1.2.0",
+      "drupal/admin_toolbar": "1.17.0"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1.22"
+    },
+    "extra": {
+      "violinist": {
+        "blacklist": [
+          "drupal/admin_toolbar"
+        ],
+        "allow_updates_beyond_constraint": 1
+      }
+    }
+}
