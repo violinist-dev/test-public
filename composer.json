@@ -19,7 +19,7 @@
           "drupal/admin_toolbar"
         ],
         "allow_updates_beyond_constraint": 1,
-         "timeframe_disallowed": "06:00-17:00"
+         "timeframe_disallowed": "06:00-14:00"
       }
     }
 }
