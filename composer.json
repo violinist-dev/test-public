@@ -6,7 +6,7 @@
         }
     ],
     "require": {
-        "psr/log": "1.0.1",
+        "psr/log": "1.1.2",
         "symfony/polyfill-mbstring": "1.2.0",
       "drupal/admin_toolbar": "1.17.0"
     },
